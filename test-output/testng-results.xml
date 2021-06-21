@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44274" started-at="2021-06-20T10:10:12 IST" finished-at="2021-06-20T10:10:57 IST">
+    <groups>
+    </groups>
+    <test name="EnglishTest" duration-ms="24480" started-at="2021-06-20T10:10:12 IST" finished-at="2021-06-20T10:10:37 IST">
+      <class name="testcases.VerifyLogin">
+        <test-method status="PASS" signature="setFileName()[pri:0, instance:testcases.VerifyLogin@5f3a4b84]" name="setFileName" is-config="true" duration-ms="1" started-at="2021-06-20T10:10:12 IST" finished-at="2021-06-20T10:10:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.VerifyLogin@5f3a4b84]" name="preCondition" is-config="true" duration-ms="10069" started-at="2021-06-20T10:10:14 IST" finished-at="2021-06-20T10:10:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[english]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.VerifyLogin@5f3a4b84]" name="runLogin" duration-ms="1272" started-at="2021-06-20T10:10:24 IST" data-provider="sendData" finished-at="2021-06-20T10:10:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.VerifyLogin@5f3a4b84]" name="postCondition" is-config="true" duration-ms="3280" started-at="2021-06-20T10:10:25 IST" finished-at="2021-06-20T10:10:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.VerifyLogin -->
+      <class name="testcases.CreateLead">
+        <test-method status="PASS" signature="setFileName()[pri:0, instance:testcases.CreateLead@27f723]" name="setFileName" is-config="true" duration-ms="16" started-at="2021-06-20T10:10:12 IST" finished-at="2021-06-20T10:10:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.CreateLead@27f723]" name="preCondition" is-config="true" duration-ms="9404" started-at="2021-06-20T10:10:14 IST" finished-at="2021-06-20T10:10:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[english]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CreateLead@27f723]" name="runCreateLead" duration-ms="12930" started-at="2021-06-20T10:10:23 IST" data-provider="sendData" finished-at="2021-06-20T10:10:36 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.CreateLead@27f723]" name="postCondition" is-config="true" duration-ms="763" started-at="2021-06-20T10:10:36 IST" finished-at="2021-06-20T10:10:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.CreateLead -->
+    </test> <!-- EnglishTest -->
+    <test name="FrenchTest" duration-ms="19762" started-at="2021-06-20T10:10:37 IST" finished-at="2021-06-20T10:10:57 IST">
+      <class name="testcases.VerifyLogin">
+        <test-method status="PASS" signature="setFileName()[pri:0, instance:testcases.VerifyLogin@b7dd107]" name="setFileName" is-config="true" duration-ms="0" started-at="2021-06-20T10:10:37 IST" finished-at="2021-06-20T10:10:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.VerifyLogin@b7dd107]" name="preCondition" is-config="true" duration-ms="6412" started-at="2021-06-20T10:10:37 IST" finished-at="2021-06-20T10:10:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[french]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runLogin(java.lang.String, java.lang.String)[pri:0, instance:testcases.VerifyLogin@b7dd107]" name="runLogin" duration-ms="1824" started-at="2021-06-20T10:10:44 IST" data-provider="sendData" finished-at="2021-06-20T10:10:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.VerifyLogin@b7dd107]" name="postCondition" is-config="true" duration-ms="783" started-at="2021-06-20T10:10:45 IST" finished-at="2021-06-20T10:10:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.VerifyLogin -->
+      <class name="testcases.CreateLead">
+        <test-method status="PASS" signature="setFileName()[pri:0, instance:testcases.CreateLead@42eca56e]" name="setFileName" is-config="true" duration-ms="2" started-at="2021-06-20T10:10:37 IST" finished-at="2021-06-20T10:10:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method status="PASS" signature="preCondition(java.lang.String)[pri:0, instance:testcases.CreateLead@42eca56e]" name="preCondition" is-config="true" duration-ms="7173" started-at="2021-06-20T10:10:37 IST" finished-at="2021-06-20T10:10:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[french]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="runCreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.CreateLead@42eca56e]" name="runCreateLead" duration-ms="11695" started-at="2021-06-20T10:10:44 IST" data-provider="sendData" finished-at="2021-06-20T10:10:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demosalesmanager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hari]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:testcases.CreateLead@42eca56e]" name="postCondition" is-config="true" duration-ms="602" started-at="2021-06-20T10:10:56 IST" finished-at="2021-06-20T10:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcases.CreateLead -->
+    </test> <!-- FrenchTest -->
+  </suite> <!-- Suite -->
+</testng-results>
